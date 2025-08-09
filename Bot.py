@@ -5,16 +5,16 @@ import time
 import logging
 
 # Telegram Bot API Token
-API_TOKEN = 'YOUR_API_TOKEN'
-CHAT_ID = '@your_group_name_or_chat_id'
+API_TOKEN = '7538218462:AAG4D2_l1-2yuFk5UlpDJLu1X6MulJCasEw'
+CHAT_ID = '-1002487015071'
 
 bot = Bot(token=API_TOKEN)
 
 # Login URL
 login_url = 'https://mediateluk.com/sms/index.php?login'
 login_data = {
-    'user': 'your_username',  # আপনার ইউজারনেম
-    'password': 'your_password'  # আপনার পাসওয়ার্ড
+    'user': '3000',  # আপনার ইউজারনেম
+    'password': 'Shamim31527@'  # আপনার পাসওয়ার্ড
 }
 
 # Start a session to maintain the login state
